@@ -271,6 +271,7 @@ def main(genomes, config):
     ALIVE = len(birds)
     clock = pygame.time.Clock()
     win = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+    pygame.display.set_caption('NEAT Flappy Bird')
 
     run = True
     score = 0
